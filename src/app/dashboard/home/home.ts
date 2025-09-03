@@ -4,11 +4,11 @@ import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from 'primeng/toolbar';
 
 @Component({
-  selector: 'app-toolbar',
+  selector: 'app-home',
   imports: [RouterLink, ButtonModule, ToolbarModule],
-  templateUrl: './toolbar.html',
-  styleUrl: './toolbar.scss'
+  templateUrl: './home.html',
+  styleUrl: './home.scss'
 })
-export class Toolbar {
+export class Home {
 
 }
